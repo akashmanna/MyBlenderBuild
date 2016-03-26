@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akashmanna/blender-git/blender/extern/clew/include/clew.h
+AvailabilityMacros.h
+-
+stdint.h
+-
+stddef.h
+-
+altivec.h
+-
+intrin.h
+-
+xmmintrin.h
+-
+intrin.h
+-
+emmintrin.h
+-
+mmintrin.h
+-
+intrin.h
+-
+immintrin.h
+-
+
+/home/akashmanna/blender-git/blender/extern/clew/src/clew.c
+clew.h
+/home/akashmanna/blender-git/blender/extern/clew/src/clew.h
+windows.h
+-
+dlfcn.h
+-
+stdlib.h
+-
+
